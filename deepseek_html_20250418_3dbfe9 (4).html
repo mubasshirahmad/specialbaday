@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Nishtha! 🎉</title>
+    <style>
+        body {
+            font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff6b6b, #ffa3a3);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+        h1 {
+            font-size: 3.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: glow 2s infinite alternate, heartbeat 1.5s infinite, dance 4s infinite;
+            margin-bottom: 10px;
+            color: #ffeb3b;
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #fff, 0 0 20px #ffeb3b, 0 0 30px #ff5722; }
+            to { text-shadow: 0 0 20px #fff, 0 0 30px #ffeb3b, 0 0 40px #ff5722; }
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            25% { transform: scale(1.05); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        @keyframes dance {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            25% { transform: translateY(-20px) rotate(5deg); }
+            50% { transform: translateY(0) rotate(-5deg); }
+            75% { transform: translateY(-10px) rotate(5deg); }
+        }
+        .birthday-wishes {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .wish {
+            font-size: 1.3em;
+            margin: 15px 0;
+            font-style: italic;
+            animation: floatUp 4s infinite;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        @keyframes floatUp {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .photo-gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+            border: 3px solid #ffeb3b;
+        }
+        .photo-gallery img:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+        .diyas {
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            background: radial-gradient(circle, #ffeb3b 20%, #ff9800 80%);
+            border-radius: 50% 50% 0 0;
+            animation: float 6s ease-in-out infinite;
+            box-shadow: 0 0 15px #ffeb3b;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-80px) rotate(5deg); }
+        }
+        .music-player {
+            margin: 20px 0;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .sparkle {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: gold;
+            border-radius: 50%;
+            pointer-events: none;
+            opacity: 0;
+            animation: sparkle 1s linear;
+        }
+        @keyframes sparkle {
+            0% { transform: scale(0); opacity: 0.8; }
+            100% { transform: scale(1.5); opacity: 0; }
+        }
+        .bday-animation {
+            font-size: 2em;
+            margin: 30px 0;
+            animation: zoomInOut 3s infinite;
+        }
+        @keyframes zoomInOut {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Floating Diyas (Indian lamps) -->
+        <div class="diyas" style="left: 10%; top: 10%;"></div>
+        <div class="diyas" style="left: 30%; top: 20%;"></div>
+        <div class="diyas" style="left: 70%; top: 15%;"></div>
+        <div class="diyas" style="left: 85%; top: 25%;"></div>
+
+        <h1>Happy Birthday Nishtha! 🎉</h1>
+        <p style="font-size: 1.4em; color: #fffacd;">May your day sparkle with joy and laughter!</p>
+
+        <!-- Birthday Animation (Replaces Guestbook) -->
+        <div class="bday-animation">
+            🎂✨🥳<br>
+            It's Your Special Day!
+        </div>
+
+        <!-- Birthday Wishes -->
+        <div class="birthday-wishes">
+            <div class="wish">"आपके जीवन में खुशियों की बरसात हो! 🎂"</div>
+            <div class="wish">"हर पल नया उत्साह लाए! ✨"</div>
+            <div class="wish">"दुआ है हमारी, आप हमेशा खुश रहो! 💖"</div>
+        </div>
+
+        <!-- Photo Gallery -->
+        <div class="photo-gallery">
+            <img src="https://via.placeholder.com/200x200?text=Nishtha+1" alt="Photo 1">
+            <img src="https://via.placeholder.com/200x200?text=Nishtha+2" alt="Photo 2">
+            <img src="https://via.placeholder.com/200x200?text=Nishtha+3" alt="Photo 3">
+        </div>
+
+        <!-- Music Player (Indian Birthday Song - Baar Baar Din Ye Aaye) -->
+        <div class="music-player">
+            <audio controls autoplay loop>
+                <!-- Replace with direct link to your preferred song -->
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+            <p>🎵 "Baar Baar Din Ye Aaye" - Celebrating you!</p>
+        </div>
+    </div>
+
+    <script>
+        // Sparkle cursor trail
+        document.addEventListener('mousemove', function(e) {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'sparkle';
+            sparkle.style.left = e.pageX + 'px';
+            sparkle.style.top = e.pageY + 'px';
+            document.body.appendChild(sparkle);
+            setTimeout(() => sparkle.remove(), 1000);
+        });
+
+        // Auto-trigger diya glow and confetti
+        window.onload = function() {
+            // Diya flicker effect
+            setInterval(() => {
+                document.querySelectorAll('.diyas').forEach(diya => {
+                    diya.style.boxShadow = `0 0 ${Math.random() * 20 + 10}px #ffeb3b`;
+                });
+            }, 1000);
+            
+            // Initial confetti burst
+            const colors = ['#FF9933', '#FFFFFF', '#138808', '#FF3F00', '#FFD700'];
+            for (let i = 0; i < 100; i++) {
+                const confetti = document.createElement('div');
+                confetti.style.position = 'fixed';
+                confetti.style.width = '10px';
+                confetti.style.height = '10px';
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.borderRadius = '50%';
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.top = '-10px';
+                confetti.style.animation = `fall ${Math.random() * 3 + 2}s linear forwards`;
+                document.body.appendChild(confetti);
+                setTimeout(() => confetti.remove(), 5000);
+            }
+        };
+    </script>
+</body>
+</html>
